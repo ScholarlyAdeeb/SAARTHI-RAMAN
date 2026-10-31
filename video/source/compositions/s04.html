@@ -1,0 +1,76 @@
+<template>
+  <style>
+@font-face{font-family:"Deck";src:local("Calibri");font-weight:400;font-style:normal}
+@font-face{font-family:"Deck";src:local("Calibri Bold");font-weight:700;font-style:normal}
+@font-face{font-family:"Deck";src:local("Calibri Italic");font-weight:400;font-style:italic}
+@font-face{font-family:"Deck";src:local("Calibri Bold Italic");font-weight:700;font-style:italic}
+#root{position:absolute;inset:0;font-family:"Deck",sans-serif;color:#2D2A4A}
+#s04-sc{position:absolute;inset:0}
+#s04-sc .abs{position:absolute}
+#s04-sc .t{position:absolute;left:96px;top:136px;font-size:64px;font-weight:700;line-height:1;white-space:nowrap}
+#s04-sc .w{display:inline-block}
+#s04-sc .pill{position:absolute;right:96px;top:44px;height:66px;padding:0 38px;border-radius:33px;font-size:28px;font-weight:700;letter-spacing:.12em;display:flex;align-items:center;white-space:nowrap}
+#s04-sc .card{position:absolute;border-radius:20px}
+#s04-sc .lab{font-size:24px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+#s04-sc .dot{border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none}
+#s04-sc .row{display:flex;align-items:center;gap:20px}
+#s04-sc ul{list-style:none;padding:0;margin:0}
+#s04-sc li{position:relative;padding-left:26px;margin-top:14px;font-size:28px;line-height:1.22}
+#s04-sc li::before{content:"";position:absolute;left:2px;top:13px;width:10px;height:10px;border-radius:50%;background:currentColor;opacity:.45}
+#s04-sc .b{font-weight:700}
+#s04-sc .m{color:#5A5677}
+
+  </style>
+  <div data-hf-id="hf-h6so" id="root" data-composition-id="s04" data-width="1920" data-height="1080">
+    <div data-hf-id="hf-h10u" id="s04-sc" data-hold>
+
+<div data-hf-id="hf-0eqh" class="pill" style="background:#BFDDFF;color:#2F6FB5">SOLUTION · 1/9</div>
+<div data-hf-id="hf-i7y4" class="t"><span data-hf-id="hf-w4ku" class="w">How</span> <span data-hf-id="hf-cqxh" class="w">it</span> <span data-hf-id="hf-m4co" class="w">works:</span> <span data-hf-id="hf-yitq" class="w">sense</span> <span data-hf-id="hf-9pum" class="w">→</span> <span data-hf-id="hf-4fdc" class="w">think</span> <span data-hf-id="hf-kuf6" class="w">→</span> <span data-hf-id="hf-izv8" class="w">act</span></div>
+<div data-hf-id="hf-uf5q" class="card cc cc0" style="left:96px;top:250px;width:470px;height:470px;background:#E6F1FF;padding:32px 34px">
+  <div data-hf-id="hf-thy4" class="row"><div data-hf-id="hf-7v6d" class="dot" style="width:72px;height:72px;background:#BFDDFF"><img data-hf-id="hf-jwap" src="assets/icons/FaEye-sky.svg" style="width:36px;height:36px"></div><div data-hf-id="hf-l0hk" class="lab" style="color:#2F6FB5;font-size:22px">Sense</div></div>
+  <ul data-hf-id="hf-ovcc"><li data-hf-id="hf-6dfl" class="ci0">Wide RGB camera · 60 fps</li><li data-hf-id="hf-z5m1" class="ci0">Depth camera (stereo)</li><li data-hf-id="hf-xha0" class="ci0">2D LiDAR · 360°</li><li data-hf-id="hf-jjuj" class="ci0">RTK GNSS · u-blox F9P</li><li data-hf-id="hf-rwpa" class="ci0">IMU + wheel encoders</li></ul></div><div data-hf-id="hf-98jl" class="card cc cc1" style="left:690px;top:250px;width:540px;height:470px;background:#EFEBFF;padding:32px 34px">
+  <div data-hf-id="hf-lt04" class="row"><div data-hf-id="hf-3y00" class="dot" style="width:72px;height:72px;background:#CDBFFF"><img data-hf-id="hf-gbau" src="assets/icons/FaBrain-lav.svg" style="width:36px;height:36px"></div><div data-hf-id="hf-mevg" class="lab" style="color:#5B4BC4;font-size:22px">Think · Jetson Orin · ROS 2</div></div>
+  <ul data-hf-id="hf-kqbo"><li data-hf-id="hf-oxcp" class="ci1">Perception models · TensorRT INT8</li><li data-hf-id="hf-6ter" class="ci1">World model + fused costmap</li><li data-hf-id="hf-clsw" class="ci1">Mission behaviour tree</li><li data-hf-id="hf-dysh" class="ci1">Planner: Nav2 + pure pursuit</li></ul></div><div data-hf-id="hf-qn9v" class="card cc cc2" style="left:1354px;top:250px;width:470px;height:470px;background:#E3F7EE;padding:32px 34px">
+  <div data-hf-id="hf-km31" class="row"><div data-hf-id="hf-fwnd" class="dot" style="width:72px;height:72px;background:#BDEBD7"><img data-hf-id="hf-5au7" src="assets/icons/FaGears-mint.svg" style="width:36px;height:36px"></div><div data-hf-id="hf-pmol" class="lab" style="color:#1E8A63;font-size:22px">Act · Pixhawk 6C</div></div>
+  <ul data-hf-id="hf-jjel"><li data-hf-id="hf-yvec" class="ci2">EKF3 fusion · 400 Hz loop</li><li data-hf-id="hf-s3nu" class="ci2">Skid-steer mixer + PID</li><li data-hf-id="hf-972v" class="ci2">Motor drivers → 4WD</li><li data-hf-id="hf-fr2u" class="ci2">Laser pan-tilt gimbal</li></ul></div>
+<svg data-hf-id="hf-1698" class="abs ar ar0" style="left:566px;top:445px" width="124" height="80" viewBox="0 0 124 80"><line data-hf-id="hf-dt0r" x1="10" y1="40" x2="106" y2="40" stroke="#CDBFFF" stroke-width="6" stroke-linecap="round"/><path data-hf-id="hf-phq1" d="M94 26 L112 40 L94 54" stroke="#CDBFFF" stroke-width="6" fill="none" stroke-linecap="round"/><circle data-hf-id="hf-gey6" class="pk pk0" cx="14" cy="40" r="9" fill="#5B4BC4"/></svg><svg data-hf-id="hf-1jn8" class="abs ar ar1" style="left:1230px;top:445px" width="124" height="80" viewBox="0 0 124 80"><line data-hf-id="hf-9hqj" x1="10" y1="40" x2="106" y2="40" stroke="#CDBFFF" stroke-width="6" stroke-linecap="round"/><path data-hf-id="hf-eril" d="M94 26 L112 40 L94 54" stroke="#CDBFFF" stroke-width="6" fill="none" stroke-linecap="round"/><circle data-hf-id="hf-5p69" class="pk pk1" cx="14" cy="40" r="9" fill="#5B4BC4"/></svg>
+<div data-hf-id="hf-cjxy" class="abs lk" style="left:1236px;top:540px;width:112px;text-align:center;font-size:20px;font-weight:700;color:#5B4BC4;line-height:1.15">MAVLink 2 / DDS<br data-hf-id="hf-x5px">&lt; 2 ms</div>
+<div data-hf-id="hf-9m60" class="card sc4" style="left:96px;top:760px;width:1728px;height:206px;background:#FDE8F0;padding:26px 34px">
+  <div data-hf-id="hf-7ncf" class="lab" style="color:#B0386A">Safety chain · hardware only · no software in the path</div>
+  <div data-hf-id="hf-vhp9" class="row" style="margin-top:22px;gap:0"><div data-hf-id="hf-5gnu" class="ch ch0" style="flex:none;width:520px;height:92px;border-radius:16px;background:#fff;border:2px solid #F8C6D8;display:flex;align-items:center;justify-content:center;text-align:center;font-size:27px;font-weight:700;padding:0 18px;line-height:1.15">Mushroom + LoRa E-stop (20 Hz heartbeat)</div><div data-hf-id="hf-g5ye" style="width:44px;text-align:center;font-size:34px;color:#B0386A">→</div><div data-hf-id="hf-hyo2" class="ch ch1" style="flex:none;width:340px;height:92px;border-radius:16px;background:#fff;border:2px solid #F8C6D8;display:flex;align-items:center;justify-content:center;text-align:center;font-size:27px;font-weight:700;padding:0 18px;line-height:1.15">Latching safety relay</div><div data-hf-id="hf-452i" style="width:44px;text-align:center;font-size:34px;color:#B0386A">→</div><div data-hf-id="hf-48yt" class="ch ch2" style="flex:none;width:420px;height:92px;border-radius:16px;background:#fff;border:2px solid #F8C6D8;display:flex;align-items:center;justify-content:center;text-align:center;font-size:27px;font-weight:700;padding:0 18px;line-height:1.15">Contactor opens + driver brake</div><div data-hf-id="hf-4jdj" style="width:44px;text-align:center;font-size:34px;color:#B0386A">→</div><div data-hf-id="hf-v8g1" class="ch ch3" style="flex:none;width:250px;height:92px;border-radius:16px;background:#fff;border:2px solid #F8C6D8;display:flex;align-items:center;justify-content:center;text-align:center;font-size:27px;font-weight:700;padding:0 18px;line-height:1.15">Stop &lt; 0.5 s</div></div>
+</div>
+
+    </div>
+  </div>
+  <script>
+    (() => {
+const S="#s04-sc ";const q=s=>S+s;const tl=gsap.timeline({paused:true});
+const IN=(s,t,o={})=>tl.fromTo(q(s),{opacity:0,x:o.x??0,y:o.y??26,scale:o.sc??1,filter:"blur(6px)"},{opacity:1,x:0,y:0,scale:1,filter:"blur(0px)",duration:o.d??0.6,ease:o.e??"power4.out",stagger:o.s??0},t);
+const POP=(s,t,o={})=>IN(s,t,Object.assign({y:0,sc:0.9,e:"back.out(1.5)",d:0.5},o));
+const WORDS=(s,t)=>tl.fromTo(q(s+" .w"),{opacity:0,filter:"blur(6px)"},{opacity:1,filter:"blur(0px)",duration:0.13,stagger:0.067,ease:"power2.out"},t);
+const FADE=(s,t,o={})=>tl.fromTo(q(s),{opacity:0},{opacity:1,duration:o.d??0.4,ease:"power1.out",stagger:o.s??0},t);
+const GROW=(s,t,o={})=>tl.fromTo(q(s),{scaleX:0,transformOrigin:"left center"},{scaleX:1,duration:o.d??0.8,ease:o.e??"power3.out",stagger:o.s??0},t);
+const GROWY=(s,t,o={})=>tl.fromTo(q(s),{scaleY:0,transformOrigin:"center bottom"},{scaleY:1,duration:o.d??0.6,ease:o.e??"power3.out",stagger:o.s??0},t);
+const WIPE=(s,t,o={})=>tl.fromTo(q(s),{clipPath:"inset(0% 100% 0% 0% round 20px)"},{clipPath:"inset(0% 0% 0% 0% round 20px)",duration:o.d??0.8,ease:"power3.inOut",stagger:o.s??0},t);
+const DRAW=(s,t,o={})=>{document.querySelectorAll(q(s)).forEach((el,i)=>{const L=Math.ceil(el.getTotalLength());el.style.strokeDasharray=L+" "+L;tl.fromTo(el,{strokeDashoffset:L},{strokeDashoffset:0,duration:o.d??0.9,ease:o.e??"power2.inOut"},t+i*(o.s??0));});};
+const COUNT=(s,t,to,o={})=>{const el=document.querySelector(q(s));const v={n:o.from??0};const f=o.fmt??(n=>Math.round(n));el.textContent=f(v.n);tl.fromTo(v,{n:o.from??0},{n:to,duration:o.d??1.6,ease:o.e??"power2.out",onUpdate:()=>{el.textContent=f(v.n);}},t);};
+const OUT=t=>tl.to("#s04-sc",{opacity:0,filter:"blur(8px)",duration:0.3,ease:"power2.in"},t);
+
+IN(".pill",0.1,{y:0,x:30});
+WORDS(".t",0.2);
+IN(".cc0",0.9,{x:-30,y:0});IN(".ci0",1.3,{y:0,x:-14,s:0.35,d:0.4});
+FADE(".ar0",3.4);IN(".cc1",3.7,{x:-30,y:0});IN(".ci1",4.1,{y:0,x:-14,s:0.45,d:0.4});
+FADE(".ar1",6.6);IN(".cc2",6.9,{x:-30,y:0});IN(".ci2",7.3,{y:0,x:-14,s:0.45,d:0.4});IN(".lk",7.0,{y:0});
+tl.fromTo(q(".pk0"),{attr:{cx:14}},{attr:{cx:92},duration:0.9,ease:"none",repeat:19},3.6);
+tl.fromTo(q(".pk1"),{attr:{cx:14}},{attr:{cx:92},duration:0.9,ease:"none",repeat:13},6.9);
+WIPE(".sc4",10.6,{d:0.7});
+tl.fromTo(q(".ch0"),{opacity:0.25,scale:0.94},{opacity:1,scale:1,duration:0.45,ease:"back.out(1.6)"},11.6);tl.to(q(".ch0"),{backgroundColor:"#F8C6D8",duration:0.3},11.8);
+tl.fromTo(q(".ch1"),{opacity:0.25,scale:0.94},{opacity:1,scale:1,duration:0.45,ease:"back.out(1.6)"},12.5);tl.to(q(".ch1"),{backgroundColor:"#F8C6D8",duration:0.3},12.700000000000001);
+tl.fromTo(q(".ch2"),{opacity:0.25,scale:0.94},{opacity:1,scale:1,duration:0.45,ease:"back.out(1.6)"},13.4);tl.to(q(".ch2"),{backgroundColor:"#F8C6D8",duration:0.3},13.600000000000001);
+tl.fromTo(q(".ch3"),{opacity:0.25,scale:0.94},{opacity:1,scale:1,duration:0.45,ease:"back.out(1.6)"},14.3);tl.to(q(".ch3"),{backgroundColor:"#F8C6D8",duration:0.3},14.5);
+
+OUT(21.65);
+window.__timelines["s04"] = tl;
+    })();
+  </script>
+</template>
